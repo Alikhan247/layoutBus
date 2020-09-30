@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Reis</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Some company name</string>
+    <string name="nav_header_subtitle">Alikhan Nursapayev</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Продажа Билетов</string>
+    <string name="menu_gallery">Продажа Билетов</string>
+    <string name="menu_slideshow">Продажа Билетов</string>
+
+    <string name="menu_tickets">Продажа Билетов</string>
+    <string name="menu_adminList">Список администраторов</string>
+    <string name="menu_bus">автобусы</string>
+    <string name="menu_statistics">Gallery</string>
+    <string name="menu_passengers">Slideshow</string>
+    <string name="menu_schedule">Slideshow</string>
+    <string name="menu_history">Slideshow</string>
+</resources>
