@@ -21,9 +21,11 @@
             android:layout_marginBottom="10dp">
 
             <LinearLayout
+                android:id="@+id/bus1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:onClick="performIntent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
