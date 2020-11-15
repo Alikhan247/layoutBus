@@ -1,7 +1,10 @@
 package kz.alikhan.reis
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.view.View
+import android.widget.Toast
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
@@ -49,5 +52,11 @@ class MainActivity : AppCompatActivity() {
     override fun onSupportNavigateUp(): Boolean {
         val navController = findNavController(R.id.nav_host_fragment)
         return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+    }
+
+    fun findReis(view: View) {
+//        Toast.makeText(this, "", Toast.LENGTH_SHORT).show()
+        val intent = Intent(this, ActivityReises::class.java)
+        startActivity(intent)
     }
 }

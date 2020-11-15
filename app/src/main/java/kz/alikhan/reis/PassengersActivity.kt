@@ -3,6 +3,7 @@ package kz.alikhan.reis
 import android.icu.text.CaseMap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_passengers.*
 import kotlinx.android.synthetic.main.item_lyout.*
