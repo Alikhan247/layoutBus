@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".OrderDetailsActivity"></activity>
+        <activity android:name=".PaymentActivity" />
+        <activity android:name=".NewPassengerActivity" />
+        <activity android:name=".PlacesActivity" />
         <activity
             android:name=".ActivityReises"
             android:label="@string/title_activity_reises"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".PassengersActivity" />
         <activity
             android:name=".MainActivity"
